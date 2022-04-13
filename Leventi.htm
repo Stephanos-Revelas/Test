@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1 {
+color: white; 
+text-align: center;
+font-family: "Times New Roman", Times, serif;
+}
+	h2{
+	color: white; 
+	text-align: center;
+	font-family: "Lucida Console", "Courier New", monospace;	
+	
+	}
+			body{
+			background-image: url("LeventiImages/wall.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		}
+				p{
+				color: white;
+				font-size: 15px
+				}
+					.fa {
+					
+					 padding: 20px;
+					 font-size: 60px;
+					 width: 50px;
+					 text-align: center;
+					  text-decoration: none;
+					  margin:   1px 5px;
+						}
+
+						.fa:hover {
+						opacity: 0.7;
+						}
+							.fa-instagram {
+						  background: #125688;
+						  color: white;
+						 
+						}
+						
+</style>
+</head>
+<body>
+ 
+
+
+<h1 style= "font-size: 35px;"> <u> <i> Leventi Productions</u> <i> </h1>
+
+<h2 style= "text-align: center"> <i> Events Company </i> </h2>
+<p style= "font-size: 25px; text-align: center"> Are you craving to party? <br> <p>
+
+
+<p style= "font-size: 20px; text-align: center">well, you have reached the right page <p>
+<p style= "font-size: 20px; text-align: center"> Leventi Productions presents to you ... <br> a night you'll never forget <p>
+
+<picture>
+<source srcset="C:\Users\Steph\OneDrive\Documents\LeventiProdctions\LeventiImages\invite.jpg">
+<center><img src= "C:\Users\Steph\OneDrive\Documents\LeventiProdctions\LeventiImages\invite.jpg" style= "width:auto;height:auto;"></center>
+</picture> 
+<p id="demo"></p>
+<script> 
+								
+var countDownDate = new Date("March 30, 2022 1:37:25").getTime();
+
+var x = setInterval(function() {
+
+ 
+  var now = new Date().getTime();
+    
+
+  var distance = countDownDate - now;
+    
+ 
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+ 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+
+
+</script>
+
+<p style= "font-size: 18px"> Tickets are available at the door <p>
+
+
+<p style= "font-size: 18px"> To contact sms or call <br> Nicholas: 0767803044 <p>
+
+
+
+
+<p style= "float:right; font-size: 18px"> <em>  Alcohol is not for sale for persons under the age of 18 <em> <p> 
+
+
+
+
+
+ <a href="https://www.instagram.com/leventis_productions/" target="_blank" class="fa fa-instagram" ></a>
+</div>
+</body>
+</html>
